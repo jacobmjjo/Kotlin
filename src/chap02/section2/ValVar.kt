@@ -10,4 +10,7 @@ fun main() {
     println("language: $language")
     println("secondNumber: $secondNumber")
 
+    val num05 = 127
+    val num06 = -321768
+    val num07 = 23123124135135
 }
