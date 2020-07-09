@@ -13,4 +13,9 @@ fun main() {
     val num05 = 127
     val num06 = -321768
     val num07 = 23123124135135
+
+    val exp03 = 3.14E-2     //0.0314 임
+    val exp04 = 3.14e2      //314 임
+    println("exp3 is $exp03 and exp4 is $exp04")     // 0.0314
+    
 }
