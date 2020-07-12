@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5a7ea03-4561-491e-b25b-b302fd29a17c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chap02/section2/FormattedString.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/section2/MinMax.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/section2/NullTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/section2/StringExpression.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/section2/StringTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/section3/AnyArgTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/section3/AnyCasting.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/section3/NumberTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/section3/ValueRefCompare.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/section3/isCheck.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/section4/BitsShift.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/section4/IncDecOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/section4/LogiccalBitwise.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/section4/Ushr.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/section4/XorSwapTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap5/section1/define/BridClassDefine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap5/section2/init/BridPrimaryInit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap5/section2/primary/BirdPrimaryConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap5/section2/secondary/BirdSecondaryConstructor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinProgramming/META-INF/KotlinProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinProgramming/META-INF/KotlinProgramming.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinProgramming/chap02/section2/ValVarKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinProgramming/chap02/section2/ValVarKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap02/section2/ValVar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap02/section2/ValVar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinProgramming/chap02/section2/NullTestKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chap02/section2/NullTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap02/section3/NullTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -59,8 +69,12 @@
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="chap02.section1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chap02/section4" />
+      <recent name="$PROJECT_DIR$/src/chap02/section3" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.NullTestKt">
+  <component name="RunManager" selected="Kotlin.BirdPrimaryConstructorKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -74,66 +88,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormattedStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="BirdPrimaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinProgramming" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap02.section2.FormattedStringKt" />
+      <option name="MAIN_CLASS_NAME" value="chap5.section2.primary.BirdPrimaryConstructorKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="BirdSecondaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinProgramming" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap02.section2.MinMaxKt" />
+      <option name="MAIN_CLASS_NAME" value="chap5.section2.secondary.BirdSecondaryConstructorKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="BridClassDefineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinProgramming" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap02.section2.NullTestKt" />
+      <option name="MAIN_CLASS_NAME" value="chap5.section1.define.BridClassDefineKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="LogiccalBitwiseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinProgramming" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap02.section2.StringExpressionKt" />
+      <option name="MAIN_CLASS_NAME" value="chap02.section4.LogiccalBitwiseKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="XorSwapTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinProgramming" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap02.section2.StringTestKt" />
+      <option name="MAIN_CLASS_NAME" value="chap02.section4.XorSwapTestKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.NullTestKt" />
-        <item itemvalue="Kotlin.FormattedStringKt" />
-        <item itemvalue="Kotlin.StringExpressionKt" />
-        <item itemvalue="Kotlin.StringTestKt" />
-        <item itemvalue="Kotlin.MinMaxKt" />
+        <item itemvalue="Kotlin.BirdPrimaryConstructorKt" />
+        <item itemvalue="Kotlin.BirdSecondaryConstructorKt" />
+        <item itemvalue="Kotlin.BridClassDefineKt" />
+        <item itemvalue="Kotlin.XorSwapTestKt" />
+        <item itemvalue="Kotlin.LogiccalBitwiseKt" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +187,10 @@
       <workItem from="1594174036796" duration="207000" />
       <workItem from="1594174265041" duration="798000" />
       <workItem from="1594175279547" duration="1227000" />
-      <workItem from="1594292810793" duration="4289000" />
+      <workItem from="1594292810793" duration="4447000" />
+      <workItem from="1594355634737" duration="6532000" />
+      <workItem from="1594460303328" duration="5447000" />
+      <workItem from="1594553189089" duration="4193000" />
     </task>
     <servers />
   </component>
@@ -189,26 +206,46 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="514" y="342" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.960@0.0.1536.960" timestamp="1594294455308" />
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1594302171630">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1594560614112">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1594302171630" />
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1594560614112" />
     <state width="1358" height="211" key="GridCell.Tab.0.bottom/0.23.1536.857@0.23.1536.857" timestamp="1594174025219" />
-    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1594302171629">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.23.1536.860@0.23.1536.860" timestamp="1594453907632" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1594560614110">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1594302171629" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1594560614110" />
     <state width="1358" height="211" key="GridCell.Tab.0.center/0.23.1536.857@0.23.1536.857" timestamp="1594174025219" />
-    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1594302171628">
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.23.1536.860@0.23.1536.860" timestamp="1594453907632" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1594560614110">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1594302171628" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1594560614110" />
     <state width="1358" height="211" key="GridCell.Tab.0.left/0.23.1536.857@0.23.1536.857" timestamp="1594174025218" />
-    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1594302171629">
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.23.1536.860@0.23.1536.860" timestamp="1594453907631" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1594560614111">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1594302171629" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1594560614111" />
     <state width="1358" height="211" key="GridCell.Tab.0.right/0.23.1536.857@0.23.1536.857" timestamp="1594174025219" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.23.1536.860@0.23.1536.860" timestamp="1594453907632" />
+    <state width="1494" height="328" key="GridCell.Tab.1.bottom" timestamp="1594475128537">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="328" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1594475128537" />
+    <state width="1494" height="328" key="GridCell.Tab.1.center" timestamp="1594475128537">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="328" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1594475128537" />
+    <state width="1494" height="328" key="GridCell.Tab.1.left" timestamp="1594475128537">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="328" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1594475128537" />
+    <state width="1494" height="328" key="GridCell.Tab.1.right" timestamp="1594475128537">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="328" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1594475128537" />
     <state x="269" y="119" key="SettingsEditor" timestamp="1594175265957">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -222,5 +259,16 @@
     </state>
     <state x="466" y="69" width="604" height="822" key="find.popup/0.0.1536.960@0.0.1536.960" timestamp="1594040882598" />
     <state x="466" y="85" width="604" height="734" key="find.popup/0.23.1536.857@0.23.1536.857" timestamp="1594173843985" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/chap02/section4/LogiccalBitwise.kt</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
