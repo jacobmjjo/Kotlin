@@ -1,6 +1,6 @@
 package chap5.section2.init
 
-class Bird(var name: String, var wing: String, var beak: String, var color: String){
+class Bird(var name: String, var wing: Int, var beak: String, var color: String){
 
     init{
         println("------초기화 블록 시작--------")
@@ -16,5 +16,7 @@ class Bird(var name: String, var wing: String, var beak: String, var color: Stri
 fun main() {
     val coco = Bird("mybird", 2, "short","blue")
 
-    coco.color
+    coco.color = "yellow"
+    println("coco.color: ${coco.color}")
+    coco.fly()
 }
