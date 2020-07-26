@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5a7ea03-4561-491e-b25b-b302fd29a17c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chap8/section1/FindIndex.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap8/section1/GenericNull.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap6/section1/customgetset/CustomGetterSetter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap6/section1/customproperty/CustomGetterSetterBackingProperty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap7/section1/OperatorOverloading.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinProgramming/META-INF/KotlinProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinProgramming/META-INF/KotlinProgramming.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap7/section2/ReflectionTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +61,17 @@
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateKotlinClassDialog.RecentsKey">
-      <recent name="chap02.section1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chap6/section1/customgetset" />
+      <recent name="$PROJECT_DIR$/src/chap6/section1/customproperty" />
       <recent name="$PROJECT_DIR$/src/chap02/section4" />
       <recent name="$PROJECT_DIR$/src/chap02/section3" />
     </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="chap02.section1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.GenericNullKt">
+  <component name="RunManager" selected="Kotlin.CustomGetterSetterBackingPropertyKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -93,6 +95,32 @@
       <option name="MAIN_CLASS_NAME" value="chap7.section1.AbstractVehicleKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2" />
+    </configuration>
+    <configuration name="CustomGetterSetterBackingPropertyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chap6.section1.customproperty.CustomGetterSetterBackingPropertyKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomGetterSetterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chap6.section1.customgetset.CustomGetterSetterKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="GenericNullKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinProgramming" />
@@ -131,9 +159,13 @@
       <item itemvalue="Kotlin.AbstractVehicleKt" />
       <item itemvalue="Kotlin.ReflectionTestKt" />
       <item itemvalue="Kotlin.GenericNullKt" />
+      <item itemvalue="Kotlin.CustomGetterSetterKt" />
+      <item itemvalue="Kotlin.CustomGetterSetterBackingPropertyKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CustomGetterSetterBackingPropertyKt" />
+        <item itemvalue="Kotlin.CustomGetterSetterKt" />
         <item itemvalue="Kotlin.GenericNullKt" />
         <item itemvalue="Kotlin.ReflectionTestKt" />
       </list>
@@ -161,7 +193,10 @@
       <workItem from="1595044228027" duration="3866000" />
       <workItem from="1595049728930" duration="1839000" />
       <workItem from="1595053570650" duration="1264000" />
-      <workItem from="1595156833564" duration="2187000" />
+      <workItem from="1595156833564" duration="2816000" />
+      <workItem from="1595672581611" duration="592000" />
+      <workItem from="1595673411969" duration="5000" />
+      <workItem from="1595751577568" duration="1648000" />
     </task>
     <servers />
   </component>
@@ -181,36 +216,36 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="454" y="99" key="#ReflectionTestKt/0.0.1536.960@0.0.1536.960" timestamp="1595055495140" />
-    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595055937106">
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595752373668">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1595055937106" />
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1595752373668" />
     <state x="514" y="342" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594294455308">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="514" y="342" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.960@0.0.1536.960" timestamp="1594294455308" />
-    <state width="747" height="265" key="GridCell.Tab.0.bottom" timestamp="1595158416120">
+    <state width="747" height="265" key="GridCell.Tab.0.bottom" timestamp="1595753031083">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="747" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1595158416120" />
+    <state width="747" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1595753031083" />
     <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.23.1536.857@0.23.1536.857" timestamp="1594564349231" />
     <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.23.1536.860@0.23.1536.860" timestamp="1594453907632" />
-    <state width="747" height="265" key="GridCell.Tab.0.center" timestamp="1595158416118">
+    <state width="747" height="265" key="GridCell.Tab.0.center" timestamp="1595753031082">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="747" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1595158416118" />
+    <state width="747" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1595753031082" />
     <state width="1494" height="265" key="GridCell.Tab.0.center/0.23.1536.857@0.23.1536.857" timestamp="1594564349230" />
     <state width="1494" height="265" key="GridCell.Tab.0.center/0.23.1536.860@0.23.1536.860" timestamp="1594453907632" />
-    <state width="747" height="265" key="GridCell.Tab.0.left" timestamp="1595158416118">
+    <state width="747" height="265" key="GridCell.Tab.0.left" timestamp="1595753031081">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="747" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1595158416118" />
+    <state width="747" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1595753031081" />
     <state width="1494" height="265" key="GridCell.Tab.0.left/0.23.1536.857@0.23.1536.857" timestamp="1594564349229" />
     <state width="1494" height="265" key="GridCell.Tab.0.left/0.23.1536.860@0.23.1536.860" timestamp="1594453907631" />
-    <state width="747" height="265" key="GridCell.Tab.0.right" timestamp="1595158416119">
+    <state width="747" height="265" key="GridCell.Tab.0.right" timestamp="1595753031082">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="747" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1595158416119" />
+    <state width="747" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1595753031082" />
     <state width="1494" height="265" key="GridCell.Tab.0.right/0.23.1536.857@0.23.1536.857" timestamp="1594564349231" />
     <state width="1494" height="265" key="GridCell.Tab.0.right/0.23.1536.860@0.23.1536.860" timestamp="1594453907632" />
     <state width="1494" height="328" key="GridCell.Tab.1.bottom" timestamp="1594475128537">
